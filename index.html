@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Torrent playground</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <script src="js/webtorrent.js"></script>
+</head>
+<body>
+<h1>Torrent/Magnet downloader</h1>
+<script src="js/main.js"></script>
+<form>
+  Magnet: <input id='magnetUri' type="text" name="uriInput">
+          <button type="button" onclick="downloadFile()">Start download!</button>
+</form>
+<div id='containerElement'></div>
+</body>
+</html>
